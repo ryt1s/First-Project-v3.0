@@ -1,7 +1,7 @@
 # FirstProject v3.0
 
 ## Aprašymas
-Tai yra **v3.0** versija, paremta ankstesne 1.5/v2.0 versija, papildyta **Windows diegimo paketu** (`FirstProjectSetup.exe`). Programa leidžia tvarkyti studentų duomenis, juos skaityti iš failų, rūšiuoti ir skirstyti į grupes (vargsiukai/kietiakai).
+Tai yra **v3.0** versija, paremta ankstesne v1.5, papildyta **Windows diegimo paketu** (`FirstProjectSetup.exe`). Programa leidžia tvarkyti studentų duomenis, juos skaityti iš failų, rūšiuoti ir skirstyti į grupes (vargsiukai/kietiakai).
 
 ### Naujos savybės v3.0
 - Pilnas diegimo paketas: `FirstProjectSetup.exe`
@@ -13,7 +13,7 @@ Tai yra **v3.0** versija, paremta ankstesne 1.5/v2.0 versija, papildyta **Window
 1. Paleiskite `FirstProjectSetup.exe`
 2. Sekite instrukcijas
 3. Po instaliacijos programa pasiekiama per **Start meniu** arba **Darbalaukio** šortkatą
-4. Pašalinti galima per „Programos ir funkcijos“ (Add/Remove Programs)
+4. Pašalinti galima per „Programos ir funkcijos“ (Add/Remove Programs) arba paleidžiant `unins000.exe`
 
 ---
 
@@ -22,7 +22,6 @@ Tai yra **v3.0** versija, paremta ankstesne 1.5/v2.0 versija, papildyta **Window
 - Šio failo dėka programa tvarkingai įdiegiama į Windows sistemą su visais reikiamais aplankais ir šortkatais
 ---
 
-## Pastabos
-- V3.0 išlaiko visą v2.0 funkcionalumą
-- V3.0 yra pilnai testuota
-- Ateityje galima įtraukti DLL failus arba papildomus funkcionalumus
+## Pastaba
+- DLL failas šioje versijoje nėra naudojamas.
+- Įrašius vartotojo failą (pvz. `studentai_1000.txt`), programos generuojami `vargsiukai.txt` ir `kietiakai.txt` failai dar gali būti rankiniu būdu įdėti į katalogą, jei įdiegimo metu nenusikopijuojami automatiškai.
