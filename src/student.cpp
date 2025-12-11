@@ -1,20 +1,7 @@
-/**
- * @file student.cpp
- * @brief Student klasės implementacija: konstruktoriai, kopijavimas, skaiciavimai, IO operatoriai.
- */
-
-
-#include "../include/student.h"
+#include "..\include\student.h"
 #include <algorithm>
 #include <numeric>
 #include <iomanip>
-
-/**
- * @brief Apskaičiuoja mediana iš pažymių vektoriaus.
- * @param paz Vektorius pažymių
- * @return Mediana kaip double
- */
-
 
 double skaiciuotiMediana(const std::vector<int>& paz) {
     if (paz.empty()) return 0.0;
